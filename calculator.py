@@ -1,0 +1,7 @@
+# calculator.py
+
+def add(*numbers):
+    total = 0 # Initialize a total of 0
+    for number in numbers: # iterate over each param value
+        total += number # Add to the total
+    return total
